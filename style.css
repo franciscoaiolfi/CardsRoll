@@ -1,0 +1,109 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+--Soft-blue: hsl(215, 51%, 70%);
+--Cyan: hsl(178, 100%, 50%);
+--Very-Dark-Blue: hsl(217, 54%, 11%);
+--Dark-Blue-Card: hsl(216, 50%, 16%);
+--Dark-Blue-Line: hsl(215, 32%, 27%);
+--white-body: hsl(0, 0%, 100%);
+}
+
+.hr-1{
+border-top: 1px solid #CCC;
+}
+
+.body-content{
+  background-color: var(--Very-Dark-Blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+
+
+.content-area{
+ width: 15rem;
+ height: 27rem;
+  background-color: var(--Dark-Blue-Card);
+  border-radius: 10px;
+}
+
+.img-content{
+  display: flex;
+  justify-content: center;
+}
+
+.img-content img{
+ width: 11rem;
+ height: 12rem;
+ border-radius: 10px;
+ margin-top: 20px;
+}
+.img-content img:hover{
+  width: 12rem;
+  height: 13rem;
+  transition: 0.8s;
+}
+
+.text-area{
+margin-top: 15px;
+margin-left: 10px;
+  color: var(--white-body);
+}
+
+.text-area h1{
+  font-size: 18px;
+}
+
+.text-area p{
+  font-size: 13px;
+  color: var(--Soft-blue);
+}
+
+.nft-area{
+  color: var(--Cyan);
+  font-size: 14px;
+  margin-left: 15px;
+  letter-spacing: 1.8px;
+}
+.nft-area img{
+  margin-left: -10px;
+  font-size: 14px;
+}
+
+.clock-icon{
+  color: var(--Soft-blue);
+  font-size: 14px;
+}
+
+.icons-area{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.creator-area{
+align-items: baseline;
+justify-content: left;
+color: var(--white-body);
+font-size: 10px;
+}
+
+
+.creator-area img{
+  height: 50px;
+  width: 50px;
+  margin-top: 10px;
+  margin-left: 15px;
+
+}
+
+.creator-area span{
+  color: var(--Soft-blue);
+}
